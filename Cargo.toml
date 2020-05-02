@@ -6,3 +6,6 @@ debug = true
 
 [profile.release]
 debug = true
+
+[patch.crates-io]
+rustls = { git = "https://github.com/Ralith/rustls", rev = "e6136badf17cdfa74dd9e7b3bbdd3d9ccfb47446", features = ["quic"], optional = true }
