@@ -20,7 +20,7 @@ use crate::{
 
 /// Cryptography interface based on *ring*
 #[cfg(feature = "ring")]
-pub(crate) mod ring;
+pub mod ring;
 /// TLS interface based on rustls
 #[cfg(feature = "rustls")]
 pub mod rustls;

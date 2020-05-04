@@ -161,7 +161,7 @@ impl crypto::Keys for Crypto {
 }
 
 /// Keys for encrypting and decrypting packet headers
-pub struct RingHeaderCrypto {
+struct RingHeaderCrypto {
     local: aead::quic::HeaderProtectionKey,
     remote: aead::quic::HeaderProtectionKey,
 }
